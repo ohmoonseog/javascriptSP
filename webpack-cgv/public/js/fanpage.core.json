@@ -1,0 +1,37 @@
+{
+	"name": "fanpage framework",
+	"version": "1.0",
+	"statics": {
+		"styles": [
+		],
+		"scripts": [
+			{"name": "jquery.fittext"        , "js": "externalLib/jquery.fittext.js"},
+			{"name": "owl.carousel.min"      , "js": "externalLib/owl.carousel.min.js"},
+			{"name": "amcharts"              , "js": "externalLib/amcharts.js"},
+			{"name": "radar"                 , "js": "externalLib/radar.js"},
+			{"name": "imagesloaded.pkgd"     , "js": "lib/imagesloaded.pkgd.min.js"},
+			{"name": "clipboard"             , "js": "lib/clipboard.min.js"},
+			{"name": "iphoneInlineVideo"     , "js": "lib/iphone-inline-video.js"},
+			{"name": "check.util"            , "js": "util/mCgv.util.js"},
+			{"name": "string.util"           , "js": "util/string.util.js"},
+			{"name": "number.util"           , "js": "util/number.util.js"},
+			{"name": "date.util"             , "js": "util/date.util.js"},
+			{"name": "fanpage.video.controls", "js": "base/fanpage.video.controls.js"},
+			{"name": "fanpage.appInterface"  , "js": "base/fanpage.appInterface.js"},
+			{"name": "fanpage.util"          , "js": "base/fanpage.util.js"},
+			{"name": "fanpageMovie"          , "js": "base/fanpageMovie.js"},
+			{"name": "fanpageCommon"         , "js": "base/fanpageCommon.js"},
+			{"name": "cgv.ui"                , "js": "base/cgv.ui.js"},
+			{"name": "fanpage.constants"     , "js": "base/fanpage.constants.js"},
+			{"name": "movieDetailCommon"     , "js": "base/movieDetailCommon.js"}
+		],
+		"viewScripts" :{"mainInfoView"                 : [{"name" : "mainInfoView"                , "js" : "view/mainInfoView.js"                 }] ,
+			            "fanpageContentsDetail"        : [{"name" : "fanpageContentsDetail"       , "js" : "view/fanpageContentsDetail.js"        }] ,
+			            "stillCutViewer"               : [{"name" : "stillCutViewer"              , "js" : "view/stillCutViewer.js"               }] ,
+			            "searchMoviePeoplePhotoViewer" : [{"name" : "searchMoviePeoplePhotoViewer", "js" : "view/searchMoviePeoplePhotoViewer.js" }] }
+	},
+	"functions": [
+	],
+	"components": [
+	]
+}

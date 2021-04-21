@@ -1,0 +1,26 @@
+{
+	"name": "fanpage framework",
+	"version": "1.0",
+	"statics": {
+		"styles": [
+		],
+		"scripts": [
+			{"name": "jquery.fittext"        , "js": "externalLib/jquery.fittext.js"},
+			{"name": "owl.carousel.min"      , "js": "externalLib/owl.carousel.min.js"},
+			{"name": "amcharts"              , "js": "externalLib/amcharts.js"},
+			{"name": "radar"                 , "js": "externalLib/radar.js"},
+			{"name": "imagesloaded.pkgd"     , "js": "lib/imagesloaded.pkgd.min.js"},
+			{"name": "clipboard"             , "js": "lib/clipboard.min.js"},
+			{"name": "iphoneInlineVideo"     , "js": "lib/iphone-inline-video.js"},
+			{"name": "cgvLib"                , "js": "dist/cgv_bundle.js"}
+		],
+		"viewScripts" :{"mainInfoView"                 : [{"name" : "mainInfoView"                , "js" : "dist/mainInfoView_min.js"                 }] ,
+			            "fanpageContentsDetail"        : [{"name" : "fanpageContentsDetail"       , "js" : "dist/fanpageContentsDetail_min.js"        }] ,
+			            "stillCutViewer"               : [{"name" : "stillCutViewer"              , "js" : "dist/stillCutViewer_min.js"               }] ,
+			            "searchMoviePeoplePhotoViewer" : [{"name" : "searchMoviePeoplePhotoViewer", "js" : "dist/searchMoviePeoplePhotoViewer_min.js" }] }
+	},
+	"functions": [
+	],
+	"components": [
+	]
+}

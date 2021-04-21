@@ -1,0 +1,23 @@
+{
+  "name": "webpack-cgv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --config build/config.development.js",
+    "prod": "webpack --config build/config.production.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "terser-webpack-plugin": "^5.1.1",
+    "webpack": "^5.27.1",
+    "webpack-cli": "^4.5.0",
+    "webpack-merge": "^5.7.3"
+  }
+}

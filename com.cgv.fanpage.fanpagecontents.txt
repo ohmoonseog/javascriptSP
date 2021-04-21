@@ -1,0 +1,59 @@
+com.cgv.fanpage.fanpagecontents
+	FanpageContentsController.java
+	FanpageContentsMapper.java
+	FanpageContentsService.java
+
+com.cgv.fanpage.moviecomments
+	MovieCommentsController.java
+
+fanpage/fanpageContents
+	fanpageContents-map.xml
+
+js/base
+	cgv.ui.js
+	fanpage.appInterface.js
+	fanpage.constants.js
+	fanpage.util.js
+	fanpage.video.controls.js
+	fanpageCommon.js
+	fanpageMovie.js
+	movieDetailCommon.js
+
+js/lib
+	amcharts.js
+    jquery-1.11.0.min.js
+    owl.carousel.min.js
+    radar.js
+
+js/util
+	check.util.js
+    date.util.js
+    movieDetailProtype.js
+    number.util.js
+    string.util.js
+
+js/view
+	mainInfoView.js
+js/	
+	fanpage.core.cfg
+	fanpage.core-1.0.0.js
+
+jsp/common/include
+	head.jsp
+
+view/fanpage/fanpageContents
+	fanpageContentsDetail.jsp
+    RegView.jsp
+
+view/fanpage/mainInfo
+	mainInfoView.jsp
+
+view/fanpage/movieComments
+	movieCmtsReplyDetail.jsp
+    movieCmtsReplyPrvList.jsp
+    movieCmtsView.jsp
+
+view/fanpage/movieInformation
+	searchMoviePeoplePhotoViewer.jsp
+    searchMoviePeopleView.jsp
+    stillCutViewer.jsp
